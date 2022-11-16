@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.a {
+  position: relative;
+  top: 25%;
+  color: whitesmoke;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: fit-content;
+  background-color: whitesmoke;
+}
+
+.menu-item {
+  text-align: center;
+  width: 150px;
+  height: 160px;
+  border: 1px solid transparent;
+}
+
+.menu-item:hover {
+  border: 1px solid black;
+}
+
+.menu-item:hover > .link {
+  background-color: yellow;
+}
+
+.menu-item:hover > .link > .a {
+  color: black;
+}
+
+.link {
+  height: 25%;
+  background-color: darkred;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
